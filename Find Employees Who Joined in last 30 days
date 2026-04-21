@@ -1,0 +1,2 @@
+SELECT * FROM employees
+WHERE joining_date >= CURRENT_DATE - INTERVAL '30 days';
